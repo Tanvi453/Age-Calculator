@@ -1,0 +1,73 @@
+/* App.css */
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  color: #031a33;
+  margin-bottom: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #031a33;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  border: none;
+  border: 1px #031a33 solid;
+}
+
+button {
+  background-color: #031a33;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: white;
+  color: #031a33;
+  border: 2px #031a33 solid;
+}
+
+h2 {
+  color: #031a33;
+  margin-top: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
